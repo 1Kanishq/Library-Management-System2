@@ -3,12 +3,18 @@
         "id": 1,
         "title": "Python Programming",
         "author": "John Doe",
-        "available": true
+        "available": false
     },
     {
         "id": 2,
         "title": "Flask Web Development",
         "author": "Jane Smith",
         "available": true
+    },
+    {
+        "id": "294512",
+        "title": "Any ",
+        "author": "James",
+        "available": "True"
     }
 ]

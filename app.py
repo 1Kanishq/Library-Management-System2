@@ -170,8 +170,8 @@ def issue_book():
         book['available'] = False
         with open('books.json', 'w') as file:
             json.dump(books_data, file, indent=4)
-
-        return redirect(url_for('success_page'))  # Redirect to success page
+        flash("Succesful Issued")
+        return redirect(url_for('issue_book'))  # Redirect to success page
 
     return render_template('issue.html', today_date=today_date, return_date=return_date)
 ##return 
