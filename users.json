@@ -10,5 +10,9 @@
     "Chirag Budakoti": {
         "password": "1234",
         "role": "admin"
+    },
+    "mohit": {
+        "password": "mohi@123",
+        "role": "user"
     }
 }
